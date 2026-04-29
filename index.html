@@ -5,15 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <title>Minyak Kutuk Murni</title>
 </head>
 
 <body>
-    <header></header>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <h2 class="logo">Minyak Sari Kutuk Premium</h2>
+                <a class="header__cta" href="#promo">DAPATKAN PROMO SEKARANG</a>
+            </div>
+        </div>
+    </header>
     <main>
         <section class="hero">
             <div class="container">
-                <div class="hero-left">
+                <div class="hero__left">
                     <h1>
                         <span class="small">RAHASIA ALAMI UNTUK</span>
                         <span class="big">PULIH LEBIH CEPAT & TUBUH LEBIH KUAT</span>
@@ -21,53 +29,95 @@
 
                     <div class="line"></div>
                 </div>
-                <div class="hero-right">
-                    <img src="./images/bagde aseli no kw.avif" alt="badge minyak ikan kutuk aseli bukan kw">
+                <div class="hero__right">
+                    <img src="./images/bagde aseli no kw.avif" alt="badge minyak ikan kutuk asli">
                 </div>
             </div>
         </section>
         <section class="content">
             <div class="container">
-                <div class="content-left">
+                <div class="content__left">
                     <div class="title">
-                        <h1>
+                        <h2>
                             <span class="small">KAPSUL MINYAK</span>
                             <span class="big">SARI KUTUK</span>
-                        </h1>
+                        </h2>
                         <p>Minyak ikan kutuk pilihan, kaya nutrisi alami untuk mendukung kesehatan tubuh secara
                             menyeluruh.</p>
                     </div>
                     <ul class="benefit-list">
                         <li class="benefit">
-                            <div class="benefit_icon"></div>
-                            <p class="benefit_description">Membantu mempercepat penyembuhen luka & menjaga cairan tubuh secara menyeluruh(albumin tinggi)</p>
+                            <div class="benefit__icon"></div>
+                            <p class="benefit__description">Membantu mempercepat penyembuhan luka & menjaga cairan tubuh
+                                secara menyeluruh (albumin tinggi)</p>
                         </li>
                         <li class="benefit">
-                            <div class="benefit_icon"></div>
-                            <p class="benefit_description">Menutrisi otak, mata, dan menjaga kesehatan jantung (DHA,EPA & Omega 3-6)</p>
+                            <div class="benefit__icon"></div>
+                            <p class="benefit__description">Menutrisi otak, mata, dan menjaga kesehatan jantung (DHA,EPA
+                                & Omega 3-6)</p>
                         </li>
                         <li class="benefit">
-                            <div class="benefit_icon"></div>
-                            <p class="benefit_description">Memperkuat otot, tulang, dan meningkatkan daya tahan tubuh (protein, vitamin & mineral)</p>
+                            <div class="benefit__icon"></div>
+                            <p class="benefit__description">Memperkuat otot, tulang, dan meningkatkan daya tahan tubuh
+                                (protein, vitamin & mineral)</p>
                         </li>
                     </ul>
                 </div>
-
-            </div>
-            <div class="content-right">
-                <img src="./images/produk minyak sari ikan kutuk.avif" alt="botol kapsul minyak sari kutuk diatas batu">
-            </div>
+                <div class="content__right">
+                    <img src="./images/produk minyak sari ikan kutuk.avif"
+                        alt="botol kapsul minyak sari kutuk diatas batu">
+                </div>
             </div>
         </section>
-        <section class="promo">
+        <section class="promo" id="promo">
             <div class="container">
+                <div class="price">
+                    <div class="price__promo"></div>
+                </div>
+                <div class="guide">
+                    <div class="guide__item">
+                        <div class="guide__icon"></div>
+                        <p class="guide__description"></p>
+                    </div>
 
+                    <div class="guide__item">
+                        <div class="guide__icon"></div>
+                        <p class="guide__description"></p>
+                    </div>
+                </div>
+                <a class="order-btn" href="https://wa.link/j8nns8" target="_blank"
+                    aria-label="Pesan produk via WhatsApp">
+                    <span class="cart"></span>
+                    <span>PESAN SEKARANG!</span>
+                </a>
             </div>
         </section>
     </main>
     <footer>
         <div class="container">
-
+            <div class="footer">
+                <div class="footer__item">
+                    <div class="footer__icon"></div>
+                    <div class="footer__text">
+                        <strong>100% ALAMI</strong>
+                        <p>Bahan alami pilihan berkualitas</p>
+                    </div>
+                </div>
+                <div class="footer__item">
+                    <div class="footer__icon"></div>
+                    <div class="footer__text">
+                        <strong>TANPA BAHAN BERBAHAYA</strong>
+                        <p>Aman dikonsumsi</p>
+                    </div>
+                </div>
+                <div class="footer__item">
+                    <div class="footer__icon"></div>
+                    <div class="footer__text">
+                        <strong>TERPERCAYA</strong>
+                        <p>Diproses higienis dengan standar terbaik</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
 </body>
